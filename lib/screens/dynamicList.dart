@@ -20,7 +20,7 @@ class _DynamicListState extends State<DynamicList> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Dynamic Listview'),
+        title: Text('Dynamic Listview'), 
       ),
       body: ListView.builder(
         itemCount: item.length,
